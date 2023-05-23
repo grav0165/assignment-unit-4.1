@@ -151,9 +151,10 @@ console.log('The array of only positive numbers? Well that clearly it is:', allP
 
 // convert(2) ➞ 120
 
-let time = 0
-function minutesToSeconds(time) {
-   seconds = time * 60
+let minutes = 0
+function minutesToSeconds(minutes) {
+   seconds = minutes * 60;
+   return seconds;
 }
 
 console.log('Five minutes is equal to:', minutesToSeconds(5));
