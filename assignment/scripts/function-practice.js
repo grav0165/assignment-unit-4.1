@@ -62,10 +62,10 @@ function getLast(array) {
   if(array.length > 0) {
     let last = array[array.length-1];
     return last;
-} // get last item
-else {
-  return 'undefined';
-}
+  } // get last item
+    else {
+      return 'undefined';
+  } // return undefined
 }
 
 array = ['sonic', 'amy', 'tails', 'knuckles', 'shadow']
