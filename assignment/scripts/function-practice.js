@@ -85,7 +85,7 @@ function find(value, array) {
 }
 
 array = [1, 2, 3, 4, 5]
-console.log('Is the number in the array? Well clearly its:', find(2, array))
+console.log('Is the number 2 in the array?', find(2, array))
 
 // ----------------------
 // Stretch Goals
