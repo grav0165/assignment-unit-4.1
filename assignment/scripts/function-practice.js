@@ -95,9 +95,10 @@ console.log('Is the number 2 in the array?', find(2, array))
 function isFirstLetter(letter, string) {
   if(letter === string.charAt(0)) {
     return true;
-  } else {
+  } // return true string found
+  else {
     return false;
-  }
+  } // return false no string
 }
 console.log('isFirstLetter - should say true', isFirstLetter('a', 'apple'));
 console.log('isFirstLetter - should say false', isFirstLetter('z', 'apple'));
