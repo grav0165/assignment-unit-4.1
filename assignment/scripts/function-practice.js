@@ -43,11 +43,11 @@ console.log('The multiplification of the nubmers 4, 5, and 6 is:', multiplyThree
 function isPositive(number) {
   if (number > 0) {
     return true;
-  } // return true
+  } // true
   else {
-  return false;
+    return false;
   }
-} // return false
+} 
 
 // Call the function to test each outcome (true & false) 
 // Write a separate console.log statement for each outcome
