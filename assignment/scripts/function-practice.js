@@ -150,7 +150,13 @@ console.log('The array of only positive numbers? Well that clearly it is:', allP
 
 // convert(3) ➞ 180
 
-// convert(2) ➞ 120
+// convert(2) ➞ 120 
+
+// This is straight forward: it is asking for a simple math problem to be solved via inputting a 
+// number of minutes and mulitplying by 60 to achieve seconds. This uses two variables: minutes and seconds. 
+// Minutes will begin at 0 to announce the variable, then seconds will be determined by minutes times 60
+// then return the result. I took the Edabit prompt of using 5, 3, and 2 minutes to see if the solutions 
+// are correct, and was pretty dang easy!
 
 let minutes = 0
 function minutesToSeconds(minutes) {
