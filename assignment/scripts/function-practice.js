@@ -133,7 +133,7 @@ function allPositive(arrPos) {
 }
 
 
-let arrPos = [1, 2, -3, 4, 5];
+let arrPos = [1, 2, -3, 4, 0, 5];
 console.log('The array of only positive numbers? Well that clearly it is:', allPositive(arrPos))
 
 
