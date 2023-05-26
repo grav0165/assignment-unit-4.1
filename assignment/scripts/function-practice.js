@@ -40,8 +40,8 @@ console.log('The multiplification of the nubmers 4, 5, and 6 is:', multiplyThree
 
 // 5. Function that will return true if a number is positive, 
 //    or greater than zero, and false otherwise
-function isPositive(number) {
-  if (number > 0) {
+function isPositive(x) {
+  if (x > 0) {
     return true;
   } // true
   else {
